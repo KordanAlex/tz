@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "6619",
+      "title": "44444",
+      "content": "55555"
+    },
+    {
+      "id": "e4af",
+      "title": "66",
+      "content": "77"
+    },
+    {
+      "id": "4ecb",
+      "title": "1",
+      "content": "2"
+    },
+    {
+      "id": "e522",
+      "title": "3",
+      "content": "4"
+    },
+    {
+      "id": "4277",
+      "title": "5",
+      "content": "6"
+    },
+    {
+      "id": "5c51",
+      "title": "м",
+      "content": "е"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
