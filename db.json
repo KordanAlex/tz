@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "id": "6619",
-      "title": "44444",
-      "content": "55555"
-    },
-    {
       "id": "e4af",
       "title": "66",
       "content": "77"
@@ -17,8 +12,8 @@
     },
     {
       "id": "e522",
-      "title": "3",
-      "content": "4"
+      "title": "3 м",
+      "content": "4 и"
     },
     {
       "id": "4277",
@@ -28,7 +23,7 @@
     {
       "id": "5c51",
       "title": "м",
-      "content": "е"
+      "content": "e"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,5 +1,5 @@
 <script setup>
-const { data: postsData, refresh: refreshPosts } = await useFetch("http://localhost:3001/posts");
+const { data: postsData, refresh: refreshPosts, pending: pendingPosts } = await useLazyFetch("http://localhost:3001/posts");
 
 async function deletePost(post) {
   try {
@@ -17,6 +17,9 @@ async function deletePost(post) {
 <template>
   <div class="posts">
     <NuxtLink :to="{ name: 'posts-create' }">CREATE</NuxtLink>
+    <div v-if="pendingPosts" class="pending">
+        Loading......
+    </div>
     <div class="posts__wrapper">
       <div v-for="post in postsData" class="posts__post">
         <h3 class="posts__title">
