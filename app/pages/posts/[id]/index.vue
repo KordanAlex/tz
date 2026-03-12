@@ -1,7 +1,7 @@
 <script setup>
-const route = useRoute()
+const postStore = usePostStore()
 
-const { data: postData } = await useFetch(`http://localhost:3001/posts/${route.params.id}`);
+await postStore.getPost(useRoute())
 
 </script>
 
@@ -10,9 +10,9 @@ const { data: postData } = await useFetch(`http://localhost:3001/posts/${route.p
 	<NuxtLink :to="{name: 'posts'}">BACK</NuxtLink>
     <div class="posts__wrapper">
       <h3 class="posts__title">
-        {{ postData.title }}
+        {{ postStore.post.title }}
       </h3>
-      <p class="posts__content">{{ postData.content }}</p>
+      <p class="posts__content">{{ postStore.post.content }}</p>
     </div>
   </div>
 </template>

@@ -1,29 +1,29 @@
 {
   "posts": [
     {
-      "id": "e4af",
-      "title": "66",
-      "content": "77"
+      "id": "5353",
+      "title": "4 5",
+      "content": "4 5"
     },
     {
-      "id": "4ecb",
+      "id": "b101",
       "title": "1",
       "content": "2"
     },
     {
-      "id": "e522",
-      "title": "3 м",
-      "content": "4 и"
+      "id": "d276",
+      "title": "3",
+      "content": "4"
     },
     {
-      "id": "4277",
+      "id": "0884",
       "title": "5",
       "content": "6"
     },
     {
-      "id": "5c51",
-      "title": "м",
-      "content": "e"
+      "id": "2075",
+      "title": "7",
+      "content": "7"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
